@@ -1,0 +1,67 @@
+/* stopwatch.css */
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #f0f4f8; Change the background color */
+    background-color: #ffffff;
+background-image: linear-gradient(315deg, #ffffff 0%, #335c81 74%);
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: white; */
+    background-color: #6b2d5c;
+background-image: linear-gradient(316deg, #6b2d5c 0%, #e0e5e5 74%);
+
+    border: 10px solid #110f0f;
+    border-radius: 15px; /* Curved edges for the card */
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Adding a subtle shadow */
+    width: 300px;
+    text-align: center;
+  }
+  
+  h1, h2 {
+    margin: 10px 0;
+    color: black;
+  }
+  
+  input {
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #b36868;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 8px;
+    border: none;
+    background-color: #e9e9e9;
+    color: rgb(6, 6, 6);
+    cursor: pointer;
+    font-size:medium;
+    font-weight: 900;
+  }
+  
+  button:disabled {
+    background-color: #ccc;
+  }
+  
+  button:hover:not(:disabled) {
+    background-color: #194b1b;
+  }
+  
+  h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
